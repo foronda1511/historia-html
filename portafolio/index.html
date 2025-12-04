@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="imagenes/m2.jpeg">
-    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="images/m2.jpeg">
+    <link rel="stylesheet" href="/css/style_index.css" >
     <title>MATEO.F.S</title>
 </head>
 <body>
@@ -16,7 +16,7 @@
             <li><a href="#about-me">ABOUT ME.</a></li>
             <li><a href="#project">PROJECTS.</a></li>
             <li><a href="#contacts">CONTACTS.</a></li>
-            <li><a href="mascotas.html">PETS.</a></li>
+            <li><a href="pets.html" target="_blank">PETS.</a></li>
         </ul>
     </nav>
 
@@ -28,12 +28,33 @@
     </section>
 
     <section id="project">
-        <h2>PROJECTS</h2>
-        <ul>
-            <li><a class="project.ls" href="https://github.com/foronda1511/simulacros.git" target="_blank">Project the python</a></li>
-            <li><a class="project.ls" href="https://github.com/foronda1511/csv.git" target="_blank">project the csv</a></li>
-            <li><a class="project.ls" href="https://github.com/foronda1511/historias-de-usuario.git" target="_blank">project the html</a></li>
-        </ul>
+
+        <h2 class="ls">PROJECTS</h2>
+
+        <div class="project-row">
+
+            <article>
+                <a class="project-ls" href="https://github.com/foronda1511/simulacros.git" target="_blank">
+                    <img class="project_ls" src="images/Sin título.jpeg" alt="python">
+                    <p class="p_python">Project the python</p>
+                </a>
+            </article>
+
+            <article>
+                <a class="project-ls" href="https://github.com/foronda1511/csv.git" target="_blank">
+                    <img src="images/csv.png" alt="csv" width="180">
+                    <p class="p_python">project the csv</p>
+                </a>
+            </article>
+
+            <article>
+                <a class="project-ls" href="https://github.com/foronda1511/historias-de-usuario.git" target="_blank">
+                    <img src="images/hc.jpeg" alt="html">
+                    <p class="p_python">project the html</p>
+                </a>
+            </article>
+        </div>
+
     </section>
 
     <section id="contacts">
@@ -46,6 +67,8 @@
         </form>
     </section>
     <br>
-    <a class="page" href="mascotas.html" >PAGE PETS</a>
+
+    <a class="page" href="pets.html" target="_blank">PAGE PETS</a>
+
 </body>
 </html>

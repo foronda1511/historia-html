@@ -1,0 +1,58 @@
+header{
+    background-color: rgb(30, 30, 65);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+h1{
+    text-shadow: blue 3px 4px 3px;
+}
+
+body{
+  background-image: url("/images/fondo.jpeg");
+}
+
+p{
+    color: rgb(243, 244, 245);
+    border-bottom: rgb(20, 20, 83) 2px solid;
+    margin-left:40%;
+    margin-right: 40%;
+    box-shadow: rgb(20, 20, 83) 3px 6px 5px;
+    border-radius: 35px;
+}
+
+div,a{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    background-color: rgb(16, 24, 31);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+a{
+    text-decoration: none;
+}
+
+section{
+    display:block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+article{
+    margin-top: 80px;
+
+}
+
+img{
+    border-radius: 20px;
+    width: 20%;
+    box-shadow: rgb(255, 255, 255) 6px 9px 6px;
+    transition: transform 0.3s;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
