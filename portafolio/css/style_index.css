@@ -119,3 +119,29 @@ button{
     margin-left:40%;
     box-shadow: red 3px 5px 6px;
 }
+
+img{
+     transition: transform 0.2s;
+}
+
+img:hover{
+    transform: scale(1.5);
+}
+
+.p_python:hover{
+    color: rgb(0, 0, 0);
+    background-color:red;
+    box-shadow: rgb(10, 7, 216) 5px 8px 7px;
+}
+
+button:hover{
+    color: white;
+    background-color: red;
+    box-shadow: tomato 5px 8px 6px;
+}
+
+.page:hover{
+    color: red;
+    background-color: white;
+    box-shadow: blue 6px 9px 7px;
+}
